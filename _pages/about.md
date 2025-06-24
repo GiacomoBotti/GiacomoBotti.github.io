@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: PostDoc at <a href='https://sc.edu/study/colleges_schools/chemistry_and_biochemistry/index.php'>University of South Carolina</a> 
 
