@@ -33,5 +33,3 @@ I am theoretical chemist working on not-so-quantum dynamics. I am a postdoctoral
 I got my PhD in 2024 under [Riccardo Conte](https://sites.unimi.it/ceotto/about_RiccardoConte.html) at [Ceotto Group](https://sites.unimi.it/ceotto/index.html), University of Milan. In my PhD thesis I developed (some) and applied (many) methods of semiclassical dynamics, to unravel some interesting vibrational spectra. I got both my BSc and MSc in Ceotto Group too!
 
 You will find my resumé [here](assets/pdf/GBotti_resume.pdf)
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
