@@ -2,33 +2,36 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: PostDoc at <a href='https://sc.edu/study/colleges_schools/chemistry_and_biochemistry/index.php'>University of South Carolina</a> Department of Chemistry and Biochemistry
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Office 401</p>
+    <p>Graduate Science Research Center</p>
+    <p>631 Sumter Street</p>
+    <p>Columbia SC 29208</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am theoretical chemist working on not-so-quantum dynamics. I am a postdoctoral fellow in [Sophya Garashchuk](https://sc.edu/study/colleges_schools/chemistry_and_biochemistry/our_people/directory/garashchuk_sophya.php) group at the [Department of chemistry](https://sc.edu/study/colleges_schools/chemistry_and_biochemistry/index.php) of the University of South Carolina. Go Gamecocks!
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I got my PhD in 2024 under [Riccardo Conte](https://sites.unimi.it/ceotto/about_RiccardoConte.html) at [Ceotto Group](https://sites.unimi.it/ceotto/index.html), University of Milan. In my PhD thesis I developed (some) and applied (many) methods of semiclassical dynamics, to unravel some interesting vibrational spectra. I got both my BSc and MSc in Ceotto Group too!
+
+You will find my resumé [here](assets/pdf/GBotti_resume.pdf)
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
