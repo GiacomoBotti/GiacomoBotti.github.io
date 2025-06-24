@@ -466,7 +466,7 @@ ninja.data = [{
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/Giacomo Botti", "_blank");
+          window.open("https://www.linkedin.com/in/giacomo-botti-9589742b9", "_blank");
         },
       },{
         id: 'social-orcid',
