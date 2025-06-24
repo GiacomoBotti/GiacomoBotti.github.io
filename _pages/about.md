@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PostDoc at <a href='https://sc.edu/study/colleges_schools/chemistry_and_biochemistry/index.php'>University of South Carolina</a> Department of Chemistry and Biochemistry
+subtitle: PostDoc at <a href='https://sc.edu/study/colleges_schools/chemistry_and_biochemistry/index.php'>University of South Carolina</a> 
 
 profile:
   align: right
