@@ -200,7 +200,7 @@ exclude:
   - _pages/news.md
   - _pages/cv.md
   - _pages/teaching.md
-  - _READMEGiacomo.md
+  - READMEGiacomo.md
 keep_files:
   - CNAME
   - .nojekyll
