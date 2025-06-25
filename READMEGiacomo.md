@@ -65,12 +65,6 @@ Ho cambiato il bold da first name a last name nella pagina [`about.md`](_pages/a
 ```
 e nell'header modificando [`_includes/header.liquid`](_includes/header.liquid)
 ```
-<header>
-  <!-- Nav Bar -->
-  <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
-    <div class="container">
-      {% if page.permalink != '/' %}
-        <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
           {% if site.title == 'blank' %}
             {% if site.first_name %}
                 {{- site.first_name -}}
@@ -83,11 +77,6 @@ e nell'header modificando [`_includes/header.liquid`](_includes/header.liquid)
               <span class="font-weight-bold">
               {{- site.last_name -}}
             {% endif %}
-          {% else %}
-            {{- site.title -}}
-          {% endif %}
-        </a>
-      {% elsif site.enable_navbar_social %}
 ```
 ## Rimuovere pagine
 
