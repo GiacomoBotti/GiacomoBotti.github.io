@@ -7,11 +7,13 @@ nav: true
 nav_order: 5
 ---
 
-## Quantum Trajectory Adaptable Gaussian basis
+### Quantum Trajectory Adaptable Gaussian basis
 
 I just started my PostDoc under [Sophya Garashchuk](https://sc.edu/study/colleges_schools/chemistry_and_biochemistry/our_people/directory/garashchuk_sophya.php), with the goal of developing methods and codes to advance the Quantum Trajectory Adaptable Gaussian basis methods. Keep your eyes open!
 
-## Semiclassical dynamics 
+---
+
+### Semiclassical dynamics 
 
 <div style="text-align: center;">
     <figure>
