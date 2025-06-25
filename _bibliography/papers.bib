@@ -21,7 +21,7 @@
         shorttitle = {Anharmonicity and quantum nuclear effects in theoretical vibrational spectroscopy},
         url = {https://link.springer.com/10.1007/s00214-023-02993-y},
         doi = {10.1007/s00214-023-02993-y},
-        abstract = {The inclusion of nuclear quantum effects is fundamental in the simulation of vibrational spectra. This paper investigates the differences between methods based on classical mechanics and methods capable of including quantum effects. My contribution was applying adiabatic switching quantization to the calculation of formaldehyde vibrational eigenvalues. The conclusions were that while the classical methods cannot reproduce nuclear quantum effects and heavily depend on the simulation energy, methods that are derived from Schr\"{o}dinger equation, such as semiclassical initial value representation, include quantum effects such as zero point energy, overtones and combination bands, and their results do not depend on the temperature.},
+        abstract = {The inclusion of nuclear quantum effects is fundamental in the simulation of vibrational spectra. This paper investigates the differences between methods based on classical mechanics and methods capable of including quantum effects. My contribution was applying adiabatic switching quantization to the calculation of formaldehyde vibrational eigenvalues. The conclusions were that while the classical methods cannot reproduce nuclear quantum effects and heavily depend on the simulation energy, methods that are derived from Schrödinger equation, such as semiclassical initial value representation, include quantum effects such as zero point energy, overtones and combination bands, and their results do not depend on the temperature.},
         number = {5},
         urldate = {2023-05-05},
         journal = {Theoretical Chemistry Accounts},
@@ -31,7 +31,7 @@
         pages = {53},
 }
 @article{Botti2022,
-   abstract = {Proline is the cornerstone of proteins, playing a pivotal role in protein folding, regulation of metabolism and asymmetric catalysis. Nonetheless, its vibrational spectrum was not assigned on solid grounds and the presence of more than one conformer was still a matter of discussion. In this paper, I used the recently developed \textit{ab initio} adiabatic switching semiclassical dynamics to obtain an accurate estimate of proline vibrational frequencies. The thorough assignment concluded that there are two conformers in the experimental spectrum, one of them characterized by an elusive OH stretching signal due to an internal hydrogen bond.},
+   abstract = {Proline is the cornerstone of proteins, playing a pivotal role in protein folding, regulation of metabolism and asymmetric catalysis. Nonetheless, its vibrational spectrum was not assigned on solid grounds and the presence of more than one conformer was still a matter of discussion. In this paper, I used the recently developed ab initio adiabatic switching semiclassical dynamics to obtain an accurate estimate of proline vibrational frequencies. The thorough assignment concluded that there are two conformers in the experimental spectrum, one of them characterized by an elusive OH stretching signal due to an internal hydrogen bond.},
    author = {Giacomo Botti and Chiara Aieta and Riccardo Conte},
    doi = {10.1063/5.0089720},
    issn = {0021-9606},
@@ -45,7 +45,7 @@
    year = {2022},
 }
 @article{Conte_Ceotto_formaldehydePESs_2020,
-   abstract = {When running semiclassical dynamics on-the-fly, one has to compromise between the computational effort and the accuracy of the \textit{ab initio} energy. To understand the effects of the level of theory on the semiclassical vibrational spectrum, we compared the spectra of formaldehyde, obtained with Permutationally Invariant Polynomials (PIP) PES. These PESs were fitted on around 34000 single point energies computed with different basis sets on \textsc{dft}, \textsc{mp2} and \textsc{ccsd(t)} level of theory. In this paper, I computed the single point energies and Morse coordinates required for the PIP fitting. I then used the PIP PES to compute the semiclassical vibrational spectra of formaldehyde. From this comparison, it was concluded that the main factor in semiclassical spectra accuracy is the accuracy of the potential, but -- even at \textsc{dft} level -- semiclassical methods are a drastic improvement with respect to other more common methods, such as harmonic frequencies.},
+   abstract = {When running semiclassical dynamics on-the-fly, one has to compromise between the computational effort and the accuracy of the ab initio energy. To understand the effects of the level of theory on the semiclassical vibrational spectrum, we compared the spectra of formaldehyde, obtained with Permutationally Invariant Polynomials (PIP) PES. These PESs were fitted on around 34000 single point energies computed with different basis sets on DFT, MP2 and CCSD(T) level of theory. In this paper, I computed the single point energies and Morse coordinates required for the PIP fitting. I then used the PIP PES to compute the semiclassical vibrational spectra of formaldehyde. From this comparison, it was concluded that the main factor in semiclassical spectra accuracy is the accuracy of the potential, but -- even at DFT level -- semiclassical methods are a drastic improvement with respect to other more common methods, such as harmonic frequencies.},
    author = {Riccardo Conte and {Giacomo} {Botti} and Michele Ceotto},
    doi = {10.1016/j.vibspec.2019.103015},
    issn = {09242031},
@@ -59,7 +59,7 @@
    year = {2020},
 }
 @article{Botti2021,
-   abstract = {In \textit{ab initio} semiclassical spectroscopy, the spectrum is collected from a single, tailored trajectory using methods such as Ceotto's MCSCIVR. However, classical trajectories are inherently chaotic, so the choice of the quantized initial conditions is crucial. The use of an adiabatic switching procedure can improve the inital conditions quantization, thus reducing the chaotic behaviour. In this paper, I implemented adiabatic switching with \textit{ab initio} potential energies and forces and tested its capabilities on a series of molecular systems. On-the-fly adiabatic switching has proven to be a relatively cheap improvement for \textit{ab initio} semiclassical vibrational spectroscopy and can now be applied using both \textsc{NWChem} and \textsc{Orca} suites.},
+   abstract = {In ab initio semiclassical spectroscopy, the spectrum is collected from a single, tailored trajectory using methods such as Ceotto's MCSCIVR. However, classical trajectories are inherently chaotic, so the choice of the quantized initial conditions is crucial. The use of an adiabatic switching procedure can improve the inital conditions quantization, thus reducing the chaotic behaviour. In this paper, I implemented adiabatic switching with ab initio potential energies and forces and tested its capabilities on a series of molecular systems. On-the-fly adiabatic switching has proven to be a relatively cheap improvement for ab initio semiclassical vibrational spectroscopy and can now be applied using both NWChem and Orca suites.},
    author = {{Giacomo} {Botti} and Michele Ceotto and Riccardo Conte},
    doi = {10.1063/5.0075220},
    issn = {0021-9606},
@@ -73,7 +73,7 @@
    year = {2021},
 }
 @article{Conte2019,
-   abstract = {One of the main bottlenecks in semiclassical dynamics is the computation of the Hessian matrices at each step of the trajectory. These matrices are required to evolve the prefactor, which adds quantum effects on classical trajectories. To cut the computational time, one can recycle the computed Hessian matrices, exploiting the trajectory quasi-periodicity. This method is called Hessian Database. In this paper, I helped establishing the Hessian Database procedure by testing multiple store-and-fetch algorithms, finally selecting the best one that was then optimized and adapted for on-the-fly \textit{ab initio} dynamics. Hessian Database is now fundamental for using \textit{ab initio} semiclassical vibrational spectroscopy on systems of medium-to-large size. },
+   abstract = {One of the main bottlenecks in semiclassical dynamics is the computation of the Hessian matrices at each step of the trajectory. These matrices are required to evolve the prefactor, which adds quantum effects on classical trajectories. To cut the computational time, one can recycle the computed Hessian matrices, exploiting the trajectory quasi-periodicity. This method is called Hessian Database. In this paper, I helped establishing the Hessian Database procedure by testing multiple store-and-fetch algorithms, finally selecting the best one that was then optimized and adapted for on-the-fly ab initio dynamics. Hessian Database is now fundamental for using ab initio semiclassical vibrational spectroscopy on systems of medium-to-large size. },
    author = {Riccardo Conte and Fabio Gabas and {Giacomo} {Botti} and Yu Zhuang and Michele Ceotto},
    doi = {10.1063/1.5109086},
    issn = {0021-9606},
@@ -87,7 +87,7 @@
    year = {2019},
 }
 @article{Botti2023,
-  title = {Investigating the {{Spectroscopy}} of the {{Gas Phase Guanine}}\textendash{{Cytosine Pair}}: {{Keto}} versus {{Enol Configurations}}},
+  title = {Investigating the {{Spectroscopy}} of the Gas Phase Guanine-Cytosine Pair: {{Keto}} versus {{Enol Configurations}}},
   author = {{Botti}, {Giacomo} and Ceotto, Michele and Conte, Riccardo},
   year = {2023},
   journal = {The Journal of Physical Chemistry Letters},
@@ -96,7 +96,7 @@
   url = {https://doi.org/10.1021/acs.jpclett.3c02073},
   doi = {10.1021/acs.jpclett.3c02073},
   pages = {8940--8947},
-  abstract = {A tunneling mechanism has been proposed for the double proton hopping of guanine-cytosine pair, that could facilitate base mismatch and lead to point mutations in DNA. In this paper, I used \textit{ab initio} semiclassical vibrational spectroscopy to investigate the presence of tunneling in the IR-UV hole-burning spectra of gas-phase guanine-cytosine pair. By comparing the semiclassical spectra with both the velocity autocorrelation spectra and the experimental ones, I was able to confirm the previous experimental assignment and to exclude the presence of the tunneling product and of any other tunneling sign in the experimental spectrum.}
+  abstract = {A tunneling mechanism has been proposed for the double proton hopping of guanine-cytosine pair, that could facilitate base mismatch and lead to point mutations in DNA. In this paper, I used ab initio semiclassical vibrational spectroscopy to investigate the presence of tunneling in the IR-UV hole-burning spectra of gas-phase guanine-cytosine pair. By comparing the semiclassical spectra with both the velocity autocorrelation spectra and the experimental ones, I was able to confirm the previous experimental assignment and to exclude the presence of the tunneling product and of any other tunneling sign in the experimental spectrum.}
 }
 @phdthesis{BottiThesis,
 	bibtex_show={true},
