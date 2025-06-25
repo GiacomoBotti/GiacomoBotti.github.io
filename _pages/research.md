@@ -4,8 +4,7 @@ permalink: /research/
 title: Research
 description:
 nav: true
-nav_order: 6
-nav_title: "Research"
+nav_order: 5
 ---
 
 ## Quantum Trajectory Adaptable Gaussian basis
