@@ -89,3 +89,42 @@ e nell'header modificando [`_includes/header.liquid`](_includes/header.liquid)
         </a>
       {% elsif site.enable_navbar_social %}
 ```
+## Rimuovere pagine
+
+Ho rimosso le pagine modificando [`_config.yml`](_config.yml):
+```
+# Includes & excludes
+include: ["_pages", "_scripts"]
+exclude:
+  - bin/
+  - CONTRIBUTING.md
+  - CUSTOMIZE.md
+  - Dockerfile
+  - docker-compose.yml
+  - docker-compose-slim.yml
+  - FAQ.md
+  - Gemfile
+  - Gemfile.lock
+  - INSTALL.md
+  - LICENSE
+  - lighthouse_results/
+  - package.json
+  - package-lock.json
+  - _pages/about_einstein.md
+  - purgecss.config.js
+  - README.md
+  - readme_preview/
+  - vendor
+  - _pages/projects.md
+  - _pages/repositories.md
+  - _pages/blog.md
+  - _pages/profiles.md
+  - _pages/dropdown.md
+  - _pages/news.md
+  - _pages/cv.md
+  - _pages/teaching.md
+  - _READMEGiacomo.md
+keep_files:
+  - CNAME
+  - .nojekyll
+```
