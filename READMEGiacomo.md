@@ -63,20 +63,13 @@ Ho cambiato il bold da first name a last name nella pagina [`about.md`](_pages/a
     <p class="desc">{{ page.subtitle }}</p>
   </header>
 ```
-e nell'header modificando [`_includes/header.liquid`](_includes/header.liquid)
+e nell'header modificando [`_includes/header.liquid`](_includes/header.liquid); ho mosso la riga
 ```
-          {% if site.title == 'blank' %}
-            {% if site.first_name %}
-                {{- site.first_name -}}
-              </span>
-            {% endif %}
-            {% if site.middle_name %}
-              {{- site.middle_name -}}
-            {% endif %}
-            {% if site.last_name %}
-              <span class="font-weight-bold">
-              {{- site.last_name -}}
-            {% endif %}
+<span class="font-weight-bold">
+```
+prima di
+```
+{{- site.last_name -}}
 ```
 ## Rimuovere pagine
 
