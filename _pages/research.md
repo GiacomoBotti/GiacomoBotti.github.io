@@ -13,7 +13,7 @@ I just started my PostDoc under [Sophya Garashchuk](https://sc.edu/study/college
 
 ---
 
-### Semiclassical dynamics 
+### Semiclassical dynamics
 
 <div style="text-align: center;">
     <figure>
