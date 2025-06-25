@@ -28,7 +28,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am theoretical chemist working on not-so-quantum dynamics. I am a postdoctoral fellow in [Sophya Garashchuk](https://sc.edu/study/colleges_schools/chemistry_and_biochemistry/our_people/directory/garashchuk_sophya.php) group at the [Department of chemistry](https://sc.edu/study/colleges_schools/chemistry_and_biochemistry/index.php) of the University of South Carolina. Go Gamecocks!
+I am a theoretical chemist working on not-so-quantum dynamics. Right now, I am a postdoctoral fellow in [Sophya Garashchuk](https://sc.edu/study/colleges_schools/chemistry_and_biochemistry/our_people/directory/garashchuk_sophya.php) group at the [Department of chemistry](https://sc.edu/study/colleges_schools/chemistry_and_biochemistry/index.php) of the University of South Carolina. Go Gamecocks!
 
 I got my PhD in 2024 under [Riccardo Conte](https://sites.unimi.it/ceotto/about_RiccardoConte.html) at [Ceotto Group](https://sites.unimi.it/ceotto/index.html), University of Milan. In my PhD thesis I developed (some) and applied (many) methods of semiclassical dynamics, to unravel some interesting vibrational spectra. I got both my BSc and MSc in Ceotto Group too!
 
