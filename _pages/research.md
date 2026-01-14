@@ -30,7 +30,7 @@ During my BSc, MSc and finally PhD, I worked with semiclassical dynamics applied
 At the moment, I still using my semiclassical toolbox on
  - investigating DMSO microsolvation from a vibrational point of view, with [Marco Paolantoni](https://www.unipg.it/personale/marco.paolantoni);
  - understanding "a rather universal resonance" discovered by [Suhm and coworkers](https://pubs.acs.org/doi/10.1021/acs.jpclett.0c03197) in carbonyl monohydrates;
- - formalizing the difference between *classical* and *quantum* combination bands.
+ - investigating the shift of the hydrogen-bonded OH stretching in organic monohydrateds;
 
 
 
