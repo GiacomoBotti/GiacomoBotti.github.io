@@ -20,3 +20,10 @@ One of the reviewers of [[Botti2025]](/publications#Botti2025) requested that I 
 I collaborated with Giacomo Mandelli (Politecnico di Milano) in the creation of Dragonball, a suite to compute classical vibrational density of states, starting from a guess geometry. We created a documentation website:
 
 [Dragonball Suite](https://dragonball-vispec.readthedocs.io/en/latest/index.html)
+
+
+## DoubleWell: Augmented Correlated Gaussian
+
+With Sophya Garashchuk, we created a Fortran code that uses the Augmented Correlated Gaussian to approximate quantum dynamics. You can find the documentation here:
+
+[DoubleWell](https://doublewell.readthedocs.io/en/latest/)
